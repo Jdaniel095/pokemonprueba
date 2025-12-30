@@ -24,13 +24,13 @@ let audioStarted = false;
 /* -------------------- DATA -------------------- */
 /**
  * scenes[].ambience opcional:
- *  ambience: { src: "assets/forest.mp3", volume: 0.10, loop:true }
+ *  ambience: { src: "forest.mp3", volume: 0.10, loop:true }
  *
  * steps[].stepVideo opcional:
- *  stepVideo: { src:"assets/vid5.mp4", loop:true, muted:true, volume:0.0 }
+ *  stepVideo: { src:"vid5.mp4", loop:true, muted:true, volume:0.0 }
  *
  * steps[].stepImage opcional:
- *  stepImage: "assets/subescena2.png"
+ *  stepImage: "subescena2.png"
  *
  * steps[].pos opcional (para CSS):
  *  pos: "pos-center" | "pos-bottom" | "pos-top" | "pos-topLeft" | "pos-topRight" | "pos-bottomLeft" | "pos-bottomRight"
@@ -39,8 +39,8 @@ const scenes = [
   {
     id: 0,
     type: "image",
-    src: "assets/escena0.jpg",
-    ambience: { src: "assets/amb_space.mp3", volume: 0.08, loop: true },
+    src: "escena0.jpg",
+    ambience: { src: "amb_space.mp3", volume: 0.08, loop: true },
     steps: [
   {
     title: "Esta historia no empezó en un lugar…",
@@ -58,8 +58,8 @@ const scenes = [
   {
     id: 1,
     type: "image",
-    src: "assets/escena1.png",
-    ambience: { src: "assets/amb_room.mp3", volume: 0.07, loop: true },
+    src: "escena1.png",
+    ambience: { src: "amb_room.mp3", volume: 0.07, loop: true },
     steps: [
   {
     title: "Te conocí jugando Wild Rift.",
@@ -74,7 +74,7 @@ const scenes = [
   {
     title: "Entre partidas, bromas y risas…",
     sub: "dejaste de ser solo alguien del juego y empezaste a quedarte conmigo.",
-    stepImage: "assets/subescena1.png",
+    stepImage: "subescena1.png",
     pos: "pos-bottom"
   }
 ]
@@ -83,8 +83,8 @@ const scenes = [
   {
     id: 2,
     type: "image",
-    src: "assets/escena2.png",
-    ambience: { src: "assets/amb_night.mp3", volume: 0.08, loop: true },
+    src: "escena2.png",
+    ambience: { src: "amb_night.mp3", volume: 0.08, loop: true },
   steps: [
   {
     title: "Entre mensajes que se alargaban…",
@@ -104,7 +104,7 @@ const scenes = [
   {
     title: "¿Quieres ser mi novia?",
     sub: "Y desde ahí, empezamos a elegirnos.",
-    stepImage: "assets/subescena2.png",
+    stepImage: "subescena2.png",
     pos: "pos-bottom"
   }
 ]
@@ -113,8 +113,8 @@ const scenes = [
   {
     id: 3,
     type: "image",
-    src: "assets/escena3.png",
-    ambience: { src: "assets/amb_city.mp3", volume: 0.07, loop: true },
+    src: "escena3.png",
+    ambience: { src: "amb_city.mp3", volume: 0.07, loop: true },
  steps: [
     {
       title: "Después de eso, pensé en tener un detalle contigo.",
@@ -142,8 +142,8 @@ const scenes = [
   {
     id: 4,
     type: "image",
-    src: "assets/escena4.jpg",
-    ambience: { src: "assets/forest.mp3", volume: 0.10, loop: true },
+    src: "escena4.jpg",
+    ambience: { src: "forest.mp3", volume: 0.10, loop: true },
    steps: [
   {
     title: "Con el regalo al fin en mis manos…",
@@ -166,8 +166,8 @@ const scenes = [
   {
     id: 5,
     type: "image",
-    src: "assets/escena5.png",
-    ambience: { src: "assets/forest.mp3", volume: 0.10, loop: true },
+    src: "escena5.png",
+    ambience: { src: "forest.mp3", volume: 0.10, loop: true },
     steps: [
   {
     title: "Nuestra primera videollamada fue ahí.",
@@ -182,7 +182,7 @@ const scenes = [
   {
     title: "No era solo una llamada.",
     sub: "eras tú.",
-    stepImage: "assets/subescena3.png",
+    stepImage: "subescena3.png",
     pos: "pos-bottom"
   }
 ]
@@ -191,8 +191,8 @@ const scenes = [
   {
     id: 6,
     type: "image",
-    src: "assets/escena6.png",
-    ambience: { src: "assets/amb_fire.mp3", volume: 0.06, loop: true },
+    src: "escena6.png",
+    ambience: { src: "amb_fire.mp3", volume: 0.06, loop: true },
    steps: [
   {
     title: "Después de verte, entendí algo importante.",
@@ -215,8 +215,8 @@ const scenes = [
   {
     id: 7,
     type: "image",
-    src: "assets/escena7.png",
-    ambience: { src: "assets/amb_home.mp3", volume: 0.06, loop: true },
+    src: "escena7.png",
+    ambience: { src: "amb_home.mp3", volume: 0.06, loop: true },
   steps: [
   {
     title: "Comimos pastel en videollamada.",
@@ -234,8 +234,8 @@ const scenes = [
   {
     id: 8,
     type: "image",
-    src: "assets/escena8.png",
-    ambience: { src: "assets/amb_soft.mp3", volume: 0.05, loop: true },
+    src: "escena8.png",
+    ambience: { src: "amb_soft.mp3", volume: 0.05, loop: true },
     steps: [
   {
     title: "Para mi cumpleaños me regalaste algo único.",
@@ -253,8 +253,8 @@ const scenes = [
   {
     id: 9,
     type: "image",
-    src: "assets/escena9.png",
-    ambience: { src: "assets/amb_wind.mp3", volume: 0.06, loop: true },
+    src: "escena9.png",
+    ambience: { src: "amb_wind.mp3", volume: 0.06, loop: true },
    steps: [
   {
     title: "Todo eso nos fue trayendo hasta aquí.",
@@ -264,7 +264,7 @@ const scenes = [
   {
     title: "Nuestra historia no empezó como las demás.",
     sub: "empezó lejos… pero sincera.",
-    stepImage: "assets/subescena9.png",
+    stepImage: "subescena9.png",
     pos: "pos-bottom"
   }
 ]
@@ -273,8 +273,8 @@ const scenes = [
   {
     id: 10,
     type: "image",
-    src: "assets/escena10.png",
-    ambience: { src: "assets/amb_final.mp3", volume: 0.20, loop: true },
+    src: "escena10.png",
+    ambience: { src: "amb_final.mp3", volume: 0.20, loop: true },
     steps: [
   {
     title: "Te amo, mi pequeña bebé.",
@@ -289,7 +289,7 @@ const scenes = [
 ]
 ,
     endVideo: {
-      src: "assets/vid10.mp4",
+      src: "vid10.mp4",
       title: "Feliz Primer Año,Mi Pequeña Dramatica :D",
       muted: true,      // ✅ cambia a false si quieres oírlo
       volume: 0.15      // ✅ si muted=false, este es el volumen del video final
@@ -738,3 +738,4 @@ loadScene(0).then(() => {
   showCaption(scenes[0].steps[0]);
   stepIndex = 1;
 });
+
