@@ -289,7 +289,7 @@ const scenes = [
 ]
 ,
     endVideo: {
-      src: "assets/vid10.mp4",
+      src: "assets/Vid10.mp4",
       title: "Feliz Primer Año,Mi Pequeña Dramatica :D",
       muted: true,      // ✅ cambia a false si quieres oírlo
       volume: 0.15      // ✅ si muted=false, este es el volumen del video final
@@ -738,3 +738,4 @@ loadScene(0).then(() => {
   showCaption(scenes[0].steps[0]);
   stepIndex = 1;
 });
+
